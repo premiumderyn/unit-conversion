@@ -1,27 +1,35 @@
 <html>
 <head>
     <link rel="stylesheet" href="index.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Zen+Antique&display=swap');
+    </style>
 </head>
 <body>
-<div class="header__top">
-    <h1>Metric/Imperial Unit Conversion</h1>
-    <p></p>
-    <button>Convert</button>
-</div>
-<div>
-    <div>
-        <h4>Length (Meter/Feet)</h4>
-        <p>20 meter</p>
+<header>
+    <div class="header">
+        <h1 class="header__title">Metric/Imperial Unit Conversion</h1>
+        <input type="text" class="header__input" >
+<!--        placeholder="20"-->
+        <button class="header__button">Convert</button>
     </div>
-    <div>
-        <h4>Length (Meter/Feet)</h4>
-        <p>10 liters</p>
+</header>
+<main>
+<section class="main-body">
+    <div class="main-body__contnr">
+        <h4 class="main-body__contnr__title">Length (Meter/Feet)</h4>
+        <p class="main-body__contnr__desc">20 meter</p>
     </div>
-    <div>
-        <h4>Length (Meter/Feet)</h4>
-        <p>20 kilos</p>
+    <div class="main-body__contnr">
+        <h4 class="main-body__contnr__title">Length (Meter/Feet)</h4>
+        <p class="main-body__contnr__desc">10 liters</p>
     </div>
-</div>
+    <div class="main-body__container">
+        <h4 class="main-body__contnr__title">Length (Meter/Feet)</h4>
+        <p class="main-body__contnr__desc">20 kilos</p>
+    </div>
+</section>
+</main>
 <script src="index.js"></script>
 </body>
 </html>

@@ -1,6 +1,63 @@
-body{
-    .header__top{
-        width: 40%;
+body {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+
+    header {
         background-color: #6943FF;
+
+        .header {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            padding: 30px;
+            /*    width: 40%;*/
+
+            .header__title {
+                color: #FFFFFF;
+            }
+
+            .header__input {
+                color: #FFFFFF;
+                font-size: 30px;
+                text-align: center;
+                background: transparent;
+                border: 3px solid #B295FF;
+                border-radius: 3px;
+                width: 25%;
+
+            }
+
+            .header__button {
+                font-size: 17px;
+                margin: 30px;
+                padding: 8px 20px;
+                s /*text-decoration: none;*/ background-color: #FFFFFF;
+                border: none;
+                border-radius: 3px;
+            }
+
+            /*.header__input::placeholder{*/
+            /*    color: #FFFFFF;*/
+            /*    text-align: center;*/
+            /*    font-size: 1.2rem;*/
+            /*}*/
+        }
+    }
+
+    main {
+        background-color: #F4F4F4;
+
+        .main-body {
+            margin: 30px;
+            /*background-color: ;*/
+
+            .main-body__contnr {
+                background-color: #FFFFFF;
+                margin: 20px;
+            }
+        }
+
+
     }
 }
